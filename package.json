@@ -1,0 +1,17 @@
+{
+  "name": "lol-client-no-animations",
+  "version": "1.0.0",
+  "description": "Styling mod for league of legends client",
+  "main": "index.js",
+  "keywords": ["lol","client","no","animation","mod","league of legends","performance","css", "speed up","accelerate"],
+  "author": {
+    "name": "Ufuk Bakan",
+    "email": "println.ufukbakan@gmail.com",
+    "url": "https://www.linkedin.com/in/ufuk-bakan/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ufukbakan/lol-client-no-animations.git"
+  },
+  "license": "MIT"
+}

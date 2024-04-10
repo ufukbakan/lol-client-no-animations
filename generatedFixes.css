@@ -1,0 +1,1258 @@
+.dialog-celebration-container.animate-dialog-celebration:not(.dialog-celebration-type-video) .dialog-celebration-content-container {
+  opacity: 1 !important;
+}
+.dialog-celebration-container.animate-dialog-celebration.dialog-celebration-type-video .dialog-celebration-ok-button {
+  opacity: 1 !important;
+}
+.dialog-celebration-container.animate-dialog-celebration .dialog-celebration-inner-ring {
+  transform: scaleY(1) !important;
+}
+.dialog-celebration-container.animate-dialog-celebration .dialog-celebration-outer-ring {
+  transform: rotate(360deg) !important;
+  opacity: 1 !important;
+}
+.dialog-celebration-container.animate-dialog-celebration .dialog-celebration-content-background {
+  transform: scaleY(1) !important;
+}
+.dialog-celebration-container.animate-dialog-celebration .dialog-celebration-line-left {
+  transform: translateX(0) !important;
+}
+.dialog-celebration-container.animate-dialog-celebration .dialog-celebration-line-right {
+  transform: translateX(0) rotate(180deg) !important;
+}
+.lol-uikit-toast-celebration-layer.fade-out,
+.lol-uikit-toast-celebration-layer .fade-out {
+  opacity: 0 !important;
+}
+.dialog-toast-celebration.animate lol-uikit-dialog-frame {
+  opacity: 1 !important;
+  transform: translateY(-50%) scaleY(1) !important;
+}
+.dialog-toast-celebration.animate .toast-celebration-frame .toast-celebration-ticks {
+  opacity: 1 !important;
+  transform: scale3d(1, 1, 1) !important;
+}
+.dialog-toast-celebration.animate .toast-celebration-frame .toast-celebration-frame-content {
+  opacity: 1 !important;
+  transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1) !important;
+}
+.dialog-toast-celebration.animate:not(.muted) .toast-celebration-frame .toast-celebration-ticks svg {
+  transform: rotate(360deg) !important;
+}
+.dialog-toast-celebration.animate:not(.muted) .toast-celebration-frame .toast-celebration-icon {
+  opacity: 1 !important;
+  transform: scale3d(1, 1, 1) !important;
+}
+.lol-uikit-vignette-celebration-layer .vignette-celebration.fade-out,
+.lol-uikit-vignette-celebration-layer .vignette-celebration .fade-out {
+  opacity: 0 !important;
+}
+.lol-uikit-vignette-celebration-layer .vignette-celebration.fade-in,
+.lol-uikit-vignette-celebration-layer .vignette-celebration .fade-in {
+  opacity: 1 !important;
+}
+.lol-uikit-spinner-image {
+  transform: rotate(1turn) !important;
+}
+.uikit-background-switcher .lol-uikit-background-switcher-image.transition.pop-in,
+.uikit-background-switcher .lol-uikit-background-switcher-overlay.transition.pop-in {
+  -webkit-filter: brightness(1) !important;
+  transform: perspective(0) translateZ(0) !important;
+}
+.uikit-background-switcher .lol-uikit-background-switcher-image.transition.small-pop,
+.uikit-background-switcher .lol-uikit-background-switcher-overlay.transition.small-pop {
+  transform: perspective(0) translateZ(1px) !important;
+}
+.uikit-background-switcher .lol-uikit-background-switcher-image.transition.fade,
+.uikit-background-switcher .lol-uikit-background-switcher-overlay.transition.fade {
+  opacity: 1 !important;
+}
+.uikit-background-switcher .lol-uikit-background-switcher-image.transition.pop-in-fade,
+.uikit-background-switcher .lol-uikit-background-switcher-overlay.transition.pop-in-fade {
+  -webkit-filter: brightness(1) !important;
+  opacity: 1 !important;
+  transform: perspective(0) translateZ(0) !important;
+}
+.uikit-error-page__retry-spinner {
+  transform: rotate(1turn) !important;
+}
+.svg-loader {
+  background-position: 0 !important;
+}
+.loot-table-content {
+  opacity: 1 !important;
+}
+.career-stats-welcome-modal-component .button-glow {
+  opacity: 0 !important;
+}
+.position-text .position-assignment-label,
+.position-text .position-assignment-title {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+.position-assignment .position-assignment-pins .position-assignment-pin .pin-container .pin-static-image {
+  opacity: 1 !important;
+}
+.position-assignment .position-assignment-pins .position-assignment-pin .pin-container .pin-position-icon {
+  opacity: 1 !important;
+}
+.trade-dialog .trade-timer:before {
+  transform: scaleX(0) !important;
+}
+.trade-dialog .close-button-frame,
+.trade-dialog .close-button-frame .close-button,
+.trade-dialog .sub-frame-right,
+.trade-dialog .sub-frame-top {
+  opacity: 1 !important;
+}
+.trade-dialog.animated.active .trade-container {
+  -webkit-mask-size: 100% 100% !important;
+}
+.trade-dialog.animated.active .trade-timer-wrapper {
+  transform: translateY(5px) !important;
+}
+.trade-dialog.animated.active .trade-content-container .trade-message {
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}
+.trade-dialog.animated.active .champion-bg-container {
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}
+.trade-dialog.animated.active.received .champion-bg-container .champion-bg {
+  -webkit-filter: brightness(1) !important;
+  transform: scale(1.1) !important;
+}
+.trade-dialog.animated.active.not-received .champion-bg-container .champion-bg {
+  -webkit-filter: brightness(1) !important;
+  transform: scale(1.1) !important;
+}
+.trade-dialog.animated.active.busy .champion-bg-container .champion-bg,
+.trade-dialog.animated.active.cancelled .champion-bg-container .champion-bg,
+.trade-dialog.animated.active.declined .champion-bg-container .champion-bg,
+.trade-dialog.animated.active.error .champion-bg-container .champion-bg {
+  -webkit-filter: grayscale(100%) !important;
+  transform: scale(1.1) !important;
+}
+.champion-select.has-bans .summoner-object.right .champion-icon-container,
+.champion-select.has-bans .summoner-object.right .player-details {
+  transform: translateX(0) !important;
+}
+.champion-select.is-banning-now.timer-less-than-11-seconds .action-button-container:after,
+.champion-select.is-picking-now.timer-less-than-11-seconds .action-button-container:after {
+  opacity: 1 !important;
+}
+.ban-showcase.waiting-for-their-team-bans .waiting-for-their-bans-label {
+  transform: scale(1) !important;
+  opacity: 1 !important;
+}
+.ban-showcase.waiting-for-their-team-bans .waiting-for-their-bans-glow {
+  opacity: 0 !important;
+}
+.ban-showcase.enemy-team-visible {
+  transform: scale(0.7) !important;
+  opacity: 0 !important;
+}
+.ban-showcase.enemy-team-visible .waiting-for-their-bans-label {
+  transform: scale(0.8) !important;
+  opacity: 0 !important;
+}
+.ban-showcase.enemy-team-visible .ban-announcement-label {
+  transform: scale(1) !important;
+  opacity: 1 !important;
+}
+.ban-showcase.enemy-team-visible .ban-announcement-label-glow {
+  opacity: 0 !important;
+}
+.ban-showcase.enemy-team-visible .ban-announcement-bg-glow {
+  opacity: 0 !important;
+}
+.ban-showcase.enemy-team-visible .ban-announcement-label:after,
+.ban-showcase.enemy-team-visible .ban-announcement-label:before {
+  opacity: 1 !important;
+  background-color: #be1e37 !important;
+}
+.ban-showcase-team .ban-champion.selected .champion-background-image {
+  transform: translateY(0) !important;
+  -webkit-filter: grayscale(1) brightness(0.75) !important;
+}
+.ban-showcase-team .ban-champion.selected .thumbnail-circle-x-background {
+  transform: translateY(67px) !important;
+  opacity: 0 !important;
+}
+.ban-showcase-team .ban-champion.selected .champion-name {
+  opacity: 1 !important;
+}
+.ban-showcase-team .ban-champion.selected .circle-x-overlay {
+  opacity: 1 !important;
+}
+.ban-showcase-team .ban-champion.selected .ban-champion-thumbnail {
+  border-color: #3c3c41 !important;
+}
+.ban-showcase-team .ban-champion.selected.locked-in .ban-champion-shake-container {
+  transform: tranlate(0, 0.5px) !important;
+}
+.ban-showcase-team .ban-champion.selected.locked-in .champion-name {
+  color: #a0998c !important;
+}
+.ban-showcase-team .ban-champion.selected.locked-in .champion-background-image {
+  -webkit-filter: grayscale(0) brightness(1) !important;
+}
+.ban-showcase-team .ban-champion.selected.locked-in .ban-champion-thumbnail {
+  border-color: #3c3c41 !important;
+}
+.ban-showcase-team .ban-champion.selected.locked-in .ban-gradient-background {
+  opacity: 0 !important;
+}
+.ban-showcase-team .ban-champion.selected.locked-in .ban-marching-border-background-container {
+  opacity: 0 !important;
+}
+.ban-showcase-team .ban-champion.selected.locked-in .ban-marching-border-background:after,
+.ban-showcase-team .ban-champion.selected.locked-in .ban-marching-border-background:before {
+  transform: rotate(300deg) !important;
+}
+.ban-showcase-team.my-team .ban-champion.selected.locked-in.sniped-player-pick .champion-name,
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion.selected.locked-in.sniped-player-pick .champion-name {
+  opacity: 1 !important;
+  color: #be1e37 !important;
+}
+.ban-showcase-team.my-team .ban-champion.selected.locked-in.sniped-player-pick .ban-champion-thumbnail,
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion.selected.locked-in.sniped-player-pick .ban-champion-thumbnail {
+  border-color: #94293a !important;
+}
+.ban-showcase-team.my-team .ban-champion.selected.locked-in.sniped-player-pick .ban-gradient-background:after,
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion.selected.locked-in.sniped-player-pick .ban-gradient-background:after {
+  transform: scale(1) !important;
+}
+.ban-showcase-team.my-team.intro-animation.my-team-banning .bans-label {
+  tranform: scale(1) !important;
+  opacity: 1 !important;
+  color: #0a96aa !important;
+}
+.ban-showcase-team.my-team.intro-animation.my-team-banning.bans-label-glow {
+  opacity: 0 !important;
+}
+.ban-showcase-team.my-team.intro-animation.my-team-banning .ban-champion {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+.ban-showcase-team.my-team.intro-animation.enemy-bans-visible .bans-label,
+.ban-showcase-team.my-team.intro-animation.enemy-bans-visible .bans-list {
+  transform: translateY(-108px) !important;
+  transform: translateY(-122px) !important;
+}
+.ban-showcase-team.their-team.enemy-bans-visible .bans-label {
+  tranform: scale(1) !important;
+  opacity: 1 !important;
+  color: #be1e37 !important;
+}
+.ban-showcase-team.their-team.enemy-bans-visible .bans-label-glow {
+  opacity: 0 !important;
+}
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion.locked-in .ban-champion-shake-container {
+  transform: tranlate(0, 0.5px) !important;
+}
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion.locked-in .champion-background-image {
+  transform: translateY(0) !important;
+  -webkit-filter: grayscale(0) brightness(1) !important;
+}
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion.locked-in .thumbnail-circle-x-background {
+  transform: translateY(67px) !important;
+}
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion.locked-in .champion-name {
+  opacity: 1 !important;
+  color: #a0998c !important;
+}
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion.locked-in .circle-x-overlay {
+  opacity: 1 !important;
+}
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion.locked-in .ban-champion-thumbnail {
+  border-color: #3c3c41 !important;
+}
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion.locked-in .ban-gradient-background {
+  opacity: 0 !important;
+}
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion.locked-in .ban-marching-border-background-container {
+  opacity: 0 !important;
+}
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion.locked-in .ban-marching-border-background:after,
+.ban-showcase-team.their-team.enemy-bans-visible .ban-champion.locked-in .ban-marching-border-background:before {
+  transform: rotate(300deg) !important;
+}
+.bench-container .champion-bench-item.on-cooldown .cooldown-mask .cooldown .right-half {
+  opacity: 0 !important;
+  transform: rotate(180deg) !important;
+}
+.bench-container .champion-bench-item.on-cooldown .cooldown-mask .cooldown .left-half {
+  opacity: 0 !important;
+  transform: rotate(180deg) !important;
+}
+.champion-select .champion-splash-background.new-pick-outro-left .uikit-background-switcher {
+  -webkit-filter: brightness(1) !important;
+  opacity: 0 !important;
+  transform: translateX(-300px) !important;
+  -webkit-filter: brightness(1.5) blur(8px) !important;
+}
+.champion-select .champion-splash-background.new-pick-outro-right .uikit-background-switcher {
+  -webkit-filter: brightness(1) !important;
+  opacity: 0 !important;
+  transform: translateX(300px) !important;
+  -webkit-filter: brightness(1.5) blur(8px) !important;
+}
+.champion-select .champion-splash-background.large-area-animations-enabled.is-animating.is-player-team.is-rotating #champion-splash-ban-component .container-slice-rotation {
+  transform: rotate(45deg) !important;
+}
+.champion-select .champion-splash-background.large-area-animations-enabled.is-animating.is-rotating #champion-splash-ban-component .container-slice-rotation {
+  transform: rotate(-45deg) !important;
+}
+.champion-select .champion-splash-background.pick-snipe-notification .background-edge-backlight {
+  opacity: 0 !important;
+}
+.champion-select.is-banning-now.timer-less-than-11-seconds .background-edge-backlight,
+.champion-select.is-picking-now.pick-screen.timer-less-than-11-seconds .background-edge-backlight {
+  opacity: 1 !important;
+}
+.champion-select .champselect-ban-lowspec-animation {
+  opacity: 0 !important;
+  -webkit-filter: grayscale(1) brightness(1) !important;
+}
+.champion-select.entry-animation.should-play-intro .ring-splash-outer .left-ring,
+.champion-select.entry-animation.should-play-intro .ring-splash-outer .right-ring {
+  width: 374px !important;
+  -webkit-filter: brightness(1) !important;
+  width: 324px !important;
+}
+.champion-select.entry-animation.should-play-intro .ring-splash-inner .left-ring,
+.champion-select.entry-animation.should-play-intro .ring-splash-inner .right-ring {
+  width: 287.5px !important;
+  -webkit-filter: brightness(1) !important;
+  width: 324px !important;
+}
+.champion-select.entry-animation.should-play-intro .ring-splash-dashed:before {
+  transform: scale(1.175) !important;
+  -webkit-filter: brightness(1) !important;
+  transform: scale(1) !important;
+}
+.champion-splash-ring.animation-enabled .ring-splash-dashed:after,
+.champion-splash-ring.animation-enabled .ring-splash-dashed:before {
+  transform: rotate(90deg) !important;
+}
+.flyout-selector-button-container.selected-item .flyout-selector-button-icon:after {
+  -webkit-filter: brightness(0.8) !important;
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+.flyout-selector-trigger-button.enabled.animate-button .animated-gradient-overlay {
+  opacity: 0 !important;
+  transform: translate(0) !important;
+}
+.flyout-selector-trigger-button.enabled.animate-button .animated-border-overlay {
+  -webkit-filter: brightness(0.7) !important;
+  opacity: 0 !important;
+}
+.game-event-info-card-icon {
+  opacity: 1 !important;
+}
+.game-event-info-card-icon-subtext {
+  opacity: 1 !important;
+}
+.framed-highlight-overlay {
+  opacity: 1 !important;
+}
+.framed-highlight-overlay .framed-highlight-overlay-shadow {
+  opacity: 1 !important;
+}
+.framed-highlight-overlay .framed-highlight-overlay-border:before {
+  opacity: 1 !important;
+  transform: translateX(-50%) !important;
+}
+.framed-highlight-overlay .framed-highlight-overlay-background:after {
+  opacity: 0.5 !important;
+  transform: translateX(-50%) !important;
+}
+.phase-transition.visible .phase-transition-text-glow {
+  opacity: 0 !important;
+}
+.phase-transition.visible .phase-transition-label {
+  transform: scale(1) !important;
+  opacity: 1 !important;
+}
+.pick-phase .champion-name-wrapper.just-locked {
+  opacity: 0 !important;
+}
+.ring-gear-component #center-ring {
+  opacity: 1 !important;
+}
+.ring-gear-component #intro-ring {
+  opacity: 0 !important;
+}
+.ring-gear-component.large-area-animations-enabled .gear-ring-rotation {
+  transform: rotate(1turn) !important;
+}
+.ring-gear-component.large-area-animations-enabled .dashed-ring-rotation {
+  transform: rotate(1turn) !important;
+}
+.ring-gear-component.large-area-animations-enabled.is-player-team.is-rotating .slash-line-rotation {
+  transform: rotate(45deg) !important;
+}
+.ring-gear-component.large-area-animations-enabled.is-enemy-team.is-rotating .slash-line-rotation {
+  transform: rotate(-45deg) !important;
+}
+.ring-gear-component.large-area-animations-enabled.is-animating.is-ban-completed #intro-ring {
+  opacity: 1 !important;
+  filter: brightness(1) grayscale(0) !important;
+  -webkit-filter: brightness(1) grayscale(0) !important;
+  opacity: 0.75 !important;
+}
+.ring-gear-component.large-area-animations-enabled.is-animating.is-ban-completed #center-ring-container {
+  opacity: 0 !important;
+  transform: scale(0.8) !important;
+}
+.ring-gear-component.large-area-animations-enabled.is-animating.is-ban-completed #dashed-ring-intro {
+  opacity: 0.5 !important;
+  transform: scale(1) !important;
+}
+.ring-gear-component.large-area-animations-enabled.is-animating.is-ban-completed #ban-gear-ring-intro {
+  transform: scale(1) !important;
+}
+.ring-gear-component.is-animating .main-ring-container {
+  filter: grayscale(100%) !important;
+  -webkit-filter: grayscale(100%) !important;
+}
+.skin-name-chest-available {
+  opacity: 1 !important;
+}
+.champion-select .skin-purchase {
+  opacity: 1 !important;
+}
+.summoner-object .summoner-container-wrapper.collapsed {
+  transform: translateX(0) !important;
+}
+.summoner-object .summoner-container-wrapper.expanded {
+  transform: translateX(0) !important;
+}
+.summoner-object .summoner-container.collapsed {
+  transform: translateX(3px) !important;
+  transform: translateX(0) !important;
+}
+.summoner-object .summoner-container.expanded {
+  transform: translateX(-3px) !important;
+  transform: translateX(0) !important;
+}
+.summoner-object .summoner-container .champion-icon-container .summoner-muted-icon {
+  opacity: 1 !important;
+}
+.summoner-object.right .summoner-container.collapsed {
+  transform: translateX(-3px) !important;
+  transform: translateX(0) !important;
+}
+.summoner-object.right .summoner-container.expanded {
+  transform: translateX(3px) !important;
+  transform: translateX(0) !important;
+}
+.summoner-object .image-ring-spinner.animated {
+  transform: rotate(1turn) !important;
+}
+.summoner-object:not(.is-picking-now) .champion-ring-pop-animation {
+  height: 62px !important;
+  opacity: 0 !important;
+  width: 62px !important;
+}
+.summoner-object:not(.is-picking-now) .champion-ring-shine-animation {
+  background-position: calc(31px - 10%) calc(31px - 10%) !important;
+  height: 62px !important;
+  opacity: 0.2 !important;
+  width: 62px !important;
+}
+.summoner-object:not(.is-picking-now) .champion-ring-magic-animation-inner {
+  opacity: 0 !important;
+  transform: translateX(-50%) translateY(-50%) rotate(28deg) scaleY(1) !important;
+}
+.summoner-object:not(.is-picking-now) .champion-ring-magic-animation-outer {
+  opacity: 0 !important;
+  transform: translateX(-60%) translateY(-39%) rotate(12deg) !important;
+}
+.summoner-object:not(.is-picking-now) .summoner-secondary-text {
+  -webkit-filter: brightness(1) contrast(1) blur(0) !important;
+  opacity: 0.65 !important;
+  text-shadow: 0 0 3px transparent, 0 0 3px transparent !important;
+}
+.summoner-object.left.pick-sniped {
+  transform: tranlate(0, 0.5px) !important;
+}
+.summoner-object.left.pick-sniped .portrait-icon {
+  -webkit-filter: grayscale(1) !important;
+  opacity: 0 !important;
+}
+.summoner-object.left.pick-sniped .champion-icon-pick-snipe-glow-animation {
+  opacity: 0 !important;
+}
+.summoner-object.left.pick-sniped .champion-icon-pick-snipe-magic-animation {
+  -webkit-mask-position: 80% 0 !important;
+  opacity: 0 !important;
+}
+.summoner-object.left.pick-sniped .champion-icon-pick-snipe-ring-animation {
+  transform: rotate(270deg) !important;
+  opacity: 0 !important;
+}
+.summoner-object .player-details .summoner-name-booster-icon {
+  opacity: 1 !important;
+}
+.summoner-wrapper .intro-animation .champion-icon-container {
+  transform: scale(1) !important;
+}
+.summoner-wrapper .intro-animation .player-details {
+  transform: translateX(0) !important;
+  visibility: visible !important;
+}
+.summoner-wrapper .intro-animation .champion-ring {
+  opacity: 1 !important;
+}
+.summoner-wrapper .intro-animation .champion-ring:after {
+  opacity: 0 !important;
+}
+.summoner-wrapper .intro-animation .champion-icons-bg {
+  opacity: 1 !important;
+}
+.summoner-wrapper .intro-animation .champion-icons .svg-icon {
+  opacity: 1 !important;
+}
+.summoner-wrapper .intro-animation .summoner-primary-text-glow {
+  opacity: 0 !important;
+}
+.spell-select-flyout .spell-information .spell-title {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.spell-select-flyout .spell-information .spell-cooldown,
+.spell-select-flyout .spell-information .spell-description {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.spell-select-flyout .summoner-spells {
+  animation-timing-function: cubic-bezier(0, 0, 0, 1) !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.team-bans-item .team-bans-champion-icon.is-completed {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+.champion-select .timer-status.timer-pulse .timer-container .timer:before {
+  opacity: 0 !important;
+}
+.champion-select .timer-status.timer-pulse .timer-container .timer:after {
+  opacity: 0 !important;
+  transform: scale(2.5) !important;
+}
+.champion-select.is-banning-now.timer-less-than-11-seconds .timer-status:before,
+.champion-select.is-picking-now.timer-less-than-11-seconds .timer-status:before {
+  opacity: 1 !important;
+}
+.champion-trade-ring-spinner.animated {
+  transform: rotate(1turn) !important;
+}
+.pick-order-swap-ring-spinner.animated {
+  transform: rotate(1turn) !important;
+}
+.swap-dialog .swap-timer:before {
+  transform: scaleX(0) !important;
+}
+.swap-dialog .close-button-frame,
+.swap-dialog .close-button-frame .close-button,
+.swap-dialog .sub-frame-right,
+.swap-dialog .sub-frame-top {
+  opacity: 1 !important;
+}
+.swap-dialog.animated.active .swap-container {
+  -webkit-mask-size: 100% 100% !important;
+}
+.swap-dialog.animated.active .swap-timer-wrapper {
+  transform: translateY(0) !important;
+}
+.swap-dialog.animated.active .swap-content-container .swap-message {
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}
+.ward-skin-select-flyout .ward-skin-details {
+  animation-timing-function: cubic-bezier(0, 0, 0, 1) !important;
+  opacity: 1 !important;
+}
+.ward-skin-select-flyout .ward-skin-details .ward-skin-name {
+  bottom: 7px !important;
+  opacity: 1 !important;
+}
+.ward-skin-select-flyout .ward-skins {
+  animation-timing-function: cubic-bezier(0, 0, 0, 1) !important;
+  opacity: 1 !important;
+  top: 0 !important;
+}
+.vote-reveal.visible .text-glow {
+  opacity: 0 !important;
+}
+.vote-reveal.visible .vote-reveal-label {
+  transform: scale(1) !important;
+  opacity: 1 !important;
+}
+.cdp-backdrop-component .cdp-backdrop {
+  -webkit-filter: opacity(1) !important;
+}
+.cdp-right-component .cdp-right-eternal-wrapper .cdp-right-orb-wrapper .cdp-right-orb {
+  transform: rotate(1turn) !important;
+}
+.cdp-right-component .cdp-right-eternal-wrapper .cdp-right-orb-wrapper .cdp-right-orb.two-orb:nth-child(2) {
+  transform: rotate(540deg) !important;
+}
+.cdp-right-component .cdp-right-eternal-wrapper .cdp-right-orb-wrapper .cdp-right-orb.three-orb:nth-child(2) {
+  transform: rotate(480deg) !important;
+}
+.cdp-right-component .cdp-right-eternal-wrapper .cdp-right-orb-wrapper .cdp-right-orb.three-orb:nth-child(3) {
+  transform: rotate(600deg) !important;
+}
+.rcp-fe-lol-champion-details-ability-video .cdp-ability-video.loading .loading-spinner {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: rotate(1turn) !important;
+}
+.rcp-fe-lol-champion-details-ability-video .cdp-ability-video.loaded .loading-spinner {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transform: rotate(1turn) !important;
+}
+.cdp-skins-carousel-container .buffer-wrapper,
+.cdp-skins-carousel-container .thumbnail-wrapper {
+  margin: 8px 5px !important;
+  transform: scale(1.03218) !important;
+}
+.cdp-skins-carousel-container .buffer-wrapper.active-buffer,
+.cdp-skins-carousel-container .thumbnail-wrapper.active-skin {
+  margin: 0 5px !important;
+  transform: scale(0.97565) !important;
+}
+.cdp-skins-carousel-container .buffer-wrapper.active-buffer {
+  margin: 0 5px !important;
+  transform: scale(0.97565) !important;
+}
+
+.clash-invite-dialog .search-box-container.not-found {
+  transform: translate(-2px) !important;
+}
+.clash-login-modal-button-glow {
+  opacity: 0 !important;
+}
+.clash-lol-pending-loader-segment:first-of-type {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.clash-lol-pending-loader-segment:nth-of-type(2) {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.clash-lol-pending-loader-segment:nth-of-type(3) {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.clash-bracket-layout .bracket-button-wrapper {
+  opacity: 1 !important;
+}
+.clash-bracket-layout-16 .bracket-button-wrapper {
+  opacity: 1 !important;
+}
+.clash-bracket-match-magic {
+  opacity: 0 !important;
+}
+.clash-dash-circle-spinner-outer {
+  transform: rotate(1turn) !important;
+}
+.clash-dash-circle-spinner-inner {
+  transform: rotate(1turn) !important;
+}
+.tournament-end-of-game-flow .clash-celebration-background.visible.high {
+  opacity: 1 !important;
+}
+.bracket-celebration .clash-eog-bracket-celebration-title-container {
+  opacity: 1 !important;
+}
+.clash-eos-celebration .clash-eos-celebration-wrapper .clash-eos-celebration-background.visible {
+  opacity: 1 !important;
+}
+.clash-eos-celebration .clash-eos-celebration-wrapper .clash-eos-celebration-contents-wrapper .clash-eos-celebration-contents.visible {
+  opacity: 1 !important;
+}
+.clash-eos-celebration .clash-eos-celebration-wrapper .clash-eos-celebration-title-container.visible {
+  opacity: 1 !important;
+}
+.clash-view-roster-modal {
+  opacity: 1 !important;
+}
+.clash-view-roster-modal .clash-view-roster-modal-roster-layout {
+  opacity: 1 !important;
+}
+.clash-view-roster-modal .clash-view-roster-modal-countdown {
+  opacity: 1 !important;
+}
+.clash-roster-member.clash-roster-member-local .clash-roster-member-summoner-icon .clash-image-ring-spinner.animated {
+  transform: rotate(1turn) !important;
+}
+.clash-position-selector-hextech-dashed-ring:before {
+  transform: rotate(1turn) !important;
+}
+.tournament-scouting .tournament-scouting-members-separator {
+  opacity: 1 !important;
+}
+.tournament-scouting .loading-spinner {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: rotate(1turn) !important;
+}
+.tournament-scouting-wins-losses-separator {
+  opacity: 1 !important;
+}
+.clash-ticket-selector .clash-ticket-selector-container .clash-ticket-selector-contents .clash-ticket-selector-background-container .clash-ticket-selector-background {
+  transform: rotate(1turn) !important;
+}
+.collections-application .champions-route {
+  opacity: 1 !important;
+}
+.collections-application .chromas-route {
+  opacity: 1 !important;
+}
+.collections__emotes-route,
+.collections__items-route {
+  opacity: 1 !important;
+}
+.collections-application .skins-route,
+.runes-route {
+  opacity: 1 !important;
+}
+.collections-application .summoner-icons-route {
+  opacity: 1 !important;
+}
+.collections-application .wards-route {
+  opacity: 1 !important;
+}
+.summoner-spells-root-component .video-fade {
+  opacity: 1 !important;
+}
+.collections-application {
+  opacity: 1 !important;
+}
+.items-root-component .item-sets-browser {
+  opacity: 1 !important;
+}
+.lol-perks-progress-bar .fill.shoot .brightness {
+  opacity: 0 !important;
+}
+.lol-perks-progress-bar .pulsating {
+  transform: translateY(0) !important;
+}
+.lol-perks-drawer .flourish {
+  opacity: 1 !important;
+}
+.skin-carousel-component .thumbnail-wrapper {
+  margin: 8px 5px !important;
+  transform: scale(1.03218) !important;
+}
+.skin-carousel-component .thumbnail-wrapper.active-skin {
+  margin: 0 5px !important;
+  transform: scale(0.97565) !important;
+}
+
+.prompted-voting-category-select-component .prompted-voting-selection-glow {
+  opacity: 1 !important;
+  transform: scale(0) !important;
+}
+.prompted-voting-category-select-component .prompted-voting-selection-outro {
+  opacity: 0 !important;
+  transform: scale(6) !important;
+}
+
+.lol-leagues .loading-fade-in {
+  opacity: 1 !important;
+}
+.lol-leagues .lol-leagues-display-area.popup {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.ranked-banner-component.provisional .banner-regalia-crest-glow {
+  opacity: 0.5 !important;
+}
+.lol-leagues .rank-standing-list-container.left-to-right-fade-in {
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}
+.lol-leagues .rank-standing-list-container.left-to-right-fade-out {
+  opacity: 0 !important;
+  transform: translateX(20px) !important;
+}
+.lol-leagues .rank-standing-list-container.right-to-left-fade-in {
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}
+.lol-leagues .rank-standing-list-container.right-to-left-fade-out {
+  opacity: 0 !important;
+  transform: translateX(-20px) !important;
+}
+.ranked-rewards-component {
+  opacity: 1 !important;
+}
+.ranked-reward-item-component.future-reward .ranked-reward-point-progress .ranked-reward-point-progress-text {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.leagues-promotion-vignette-v2-component .leagues-promotion-vignette-label.animated.fadeIn {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.leagues-promotion-vignette-v2-component .leagues-promotion-vignette-label.animated.fadeIn.provisional {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.leagues-promotion-vignette-v2-component .leagues-promotion-vignette-label.animated.fadeIn.tier {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.cherry-rated-promotion-vignette-component .cherry-rated-promotion-tier-text {
+  opacity: 1 !important;
+}
+.leagues-vignette-parallax-background {
+  opacity: 1 !important;
+}
+.match-history-loading-icon {
+  transform: rotate(1turn) !important;
+}
+.match-details-loading-icon {
+  transform: rotate(1turn) !important;
+}
+.match-details-team-list .me .player-history-champion-icon-border:before {
+  left: 13px !important;
+  box-shadow: 0 0 0 #fabe0a !important;
+  -webkit-filter: brightness(1) !important;
+}
+.match-details-team-list .me .player-history-champion-icon-border:after {
+  right: 13px !important;
+  box-shadow: 0 0 0 #fabe0a !important;
+  -webkit-filter: brightness(1) !important;
+}
+.team-avatar-wrapper.current .team-avatar-border:before {
+  left: 13px !important;
+  box-shadow: 0 0 0 #fabe0a !important;
+  -webkit-filter: brightness(1) !important;
+}
+.team-avatar-wrapper.current .team-avatar-border:after {
+  right: 13px !important;
+  box-shadow: 0 0 0 #fabe0a !important;
+  -webkit-filter: brightness(1) !important;
+}
+.currency-rp-top-up:disabled {
+  transform: rotate(1turn) !important;
+}
+.main-navigation-menu-item[active] .menu-item-icon {
+  background-color: #fff !important;
+  transform: scale(0.8) !important;
+}
+.main-navigation-menu-item[active] .menu-item-glow {
+  opacity: 0 !important;
+  transform: scale(0.1) !important;
+}
+.screen-root[data-screen-name="lol-kr-rating-screen"] lol-uikit-full-page-backdrop {
+  opacity: 0 !important;
+}
+.screen-root[data-screen-name="lol-kr-rating-screen"] lol-uikit-dialog-frame {
+  opacity: 0 !important;
+}
+div[data-screen-name="rcp-fe-lol-home"] #rcp-fe-lol-home-error .rcp-fe-lol-home-error-group .rcp-fe-lol-home-error-retry-spinner {
+  transform: rotate(1turn) !important;
+}
+.rcp-fe-lol-home-article-loading-spinner.loading,
+div[data-screen-name="rcp-fe-lol-home"].active .rcp-fe-lol-home-loading-spinner.loading {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: rotate(1turn) !important;
+}
+.mission-sidebar-component > lol-uikit-navigation-bar > .mission-sidebar-button > .mission-sidebar-unread.visible:after {
+  -webkit-filter: brightness(2) !important;
+  opacity: 1 !important;
+}
+.mission-item-component .mission-item .mission-top .mission-icon .mission-completed-icon.mission-completed-icon-mask {
+  -webkit-clip-path: polygon(14px 36px, 40px 12px, 50px 22px, 25px 47px) !important;
+}
+.mission-item-component .mission-item .mission-top .mission-icon .mission-completed-icon-border > svg > line {
+  stroke-dashoffset: 66 !important;
+  opacity: 0 !important;
+}
+.mission-objective-component
+  .mission-objective-progress-block
+  .mission-objective-progress-bar-wrapper
+  .mission-objective-progress-bar
+  .mission-objective-completed-progress[data-is-newly-completed-objective="true"]:after {
+  transform: translateX(-100%) !important;
+}
+.mission-button.unread.use-animation {
+  -webkit-filter: brightness(1.5) saturate(1.5) !important;
+}
+#honor-levelup-vignette-component .midground.level3.transition {
+  -webkit-filter: hue-rotate(1turn) !important;
+}
+#honor-levelup-vignette-component .midground.level4.transition {
+  -webkit-filter: hue-rotate(90deg) !important;
+}
+#honor-levelup-vignette-component .midground.level5.transition {
+  -webkit-filter: hue-rotate(200deg) brightness(0.85) saturate(1.75) !important;
+}
+#honor-levelup-vignette-component .fade-in {
+  opacity: 1 !important;
+}
+#honor-levelup-vignette-component .fade-out {
+  opacity: 0 !important;
+}
+.challenges-levelup-vignette-component #vignette-challenges-animated-spinny-bg.vignette-challenges-spin {
+  transform: rotate(1turn) !important;
+}
+.lol-loading-screen-container.lol-loading-screen-default-state .lol-loading-screen-spinner {
+  transform: translate(-50%, -50%) rotate(1turn) !important;
+}
+.dialog-show-message .dialog-frame .spinner {
+  transform: rotate(1turn) !important;
+}
+.parties-view .parties-background.parties-top-to-btm .bg-current {
+  transform: translateY(-610px) !important;
+}
+.parties-view .parties-background.parties-btm-to-top .bg-current {
+  transform: translate(0) !important;
+}
+.parties-chat-room {
+  bottom: 16px !important;
+  opacity: 1 !important;
+}
+.parties-header-button-container .back-button-container .eligibility-loading-spinner {
+  -webkit-transform: rotate(1turn) !important;
+}
+.parties-lower-section.parties-lower-section-fade-in {
+  opacity: 1 !important;
+}
+.parties-invite-dropzone-icon {
+  transform: translateY(-10px) !important;
+}
+.parties-invite-info-panel {
+  bottom: 16px !important;
+  opacity: 1 !important;
+}
+.lol-pending-loader-segment:first-of-type {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.lol-pending-loader-segment:nth-of-type(2) {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.lol-pending-loader-segment:nth-of-type(3) {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.parties-loading-spinner-wrapper .parties-loading-spinner {
+  transform: rotate(1turn) !important;
+}
+.game-type-card .parties-game-type-icon .icon-frame .icon-bg-filler-fade-in,
+.parties-custom-game-subcategory-card .parties-game-type-icon .icon-frame .icon-bg-filler-fade-in {
+  opacity: 1 !important;
+}
+.tft-player-card.tft-player-invited .invited-spinner {
+  transform: rotate(1turn) !important;
+}
+.lol-not-ready-loader .lol-not-ready-loader-segment:first-of-type {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.lol-not-ready-loader .lol-not-ready-loader-segment:nth-of-type(2) {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.lol-not-ready-loader .lol-not-ready-loader-segment:nth-of-type(3) {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.v2-position-selector-option.quick-play .position-selector-option-container .position-selector-text.in-demand-position {
+  filter: none !important;
+  text-shadow: none !important;
+}
+.v2-position-selector-option.quick-play .position-selector-option-container .position-selector-text.in-demand-priority-animation {
+  background-image: radial-gradient(ellipse at center, hsla(40, 45%, 61%, 0.7) 0, hsla(40, 45%, 61%, 0.45) 25%, hsla(0, 0%, 93%, 0) 57%, transparent 70%, transparent 100%) !important;
+}
+.v2-parties-invite-info-panel {
+  bottom: 16px !important;
+  opacity: 1 !important;
+}
+.v2-parties-invite-info-panel-player .lol-pending-loader-segment:first-of-type {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.v2-parties-invite-info-panel-player .lol-pending-loader-segment:nth-of-type(2) {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.v2-parties-invite-info-panel-player .lol-pending-loader-segment:nth-of-type(3) {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.v2-banner-placeholder .placeholder-invited-container .placeholder-invited-video {
+  opacity: 1 !important;
+}
+.quick-play-skin-carousel-component .thumbnail-wrapper {
+  margin: 8px 5px !important;
+  transform: scale(1.03218) !important;
+}
+.quick-play-skin-carousel-component .thumbnail-wrapper.active-skin {
+  margin: 0 5px !important;
+  transform: scale(0.97565) !important;
+}
+.quick-play-summoner-spell-popup-component .spell-information .spell-title {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.quick-play-summoner-spell-popup-component .spell-information .spell-cooldown,
+.quick-play-summoner-spell-popup-component .spell-information .spell-description {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.quick-play-summoner-spell-popup-component .summoner-spells {
+  animation-timing-function: cubic-bezier(0, 0, 0, 1) !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.player-slot__swap-glow-animation {
+  opacity: 0 !important;
+}
+.player-slot__swap-local-player-glow-animation {
+  opacity: 0 !important;
+}
+.player-slot__swap-summoner-details-animation {
+  opacity: 1 !important;
+}
+.parties-invite-dialog .search-box-container.not-found {
+  transform: translate(-2px) !important;
+}
+
+.postgame-party-status-player[player-status="left"] {
+  transform: scale(1) !important;
+}
+.postgame-party-status-player[player-status="ready"] {
+  transform: scale(1) !important;
+}
+.honor-postgame-category-low-spec-glow.position2 {
+  opacity: 0 !important;
+  transform: scale(1) !important;
+}
+.honor-postgame-category-low-spec-glow.position3 {
+  opacity: 0 !important;
+  transform: scale(1) !important;
+}
+.honor-postgame-category-low-spec-glow.position4 {
+  opacity: 0 !important;
+  transform: scale(1) !important;
+}
+.honor-postgame-category-icon.position2 {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+.honor-postgame-category-icon.position3 {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+.honor-postgame-category-icon.position4 {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+.honor-postgame-notification-video.position4 {
+  transform: translateX(0) !important;
+}
+.postgame-scoreboard-progression-honor-notification-component.active {
+  opacity: 1 !important;
+}
+.honor-postgame-notification-progress-indicator.top {
+  opacity: 0.6 !important;
+  transform: translateX(163px) !important;
+}
+.honor-postgame-notification-progress-indicator.bottom {
+  opacity: 0.6 !important;
+  transform: translateX(163px) !important;
+}
+.postgame-ranked-component .postgame-ranked-progression-container {
+  opacity: 1 !important;
+}
+.postgame-ranked-component .postgame-ranked-progression-container .postgame-ranked-progression-contents {
+  opacity: 1 !important;
+}
+.postgame-ranked-component .postgame-ranked-progression-container .postgame-ranked-header .lp-loss-delta-scroll-area.active .lp-loss-delta-scroll {
+  transform: translateY(33px) !important;
+}
+.postgame-ranked-component .postgame-ranked-progression-container .postgame-ranked-header .delta-consolation-msg.visible {
+  opacity: 1 !important;
+}
+.postgame-ranked-component .postgame-ranked-progression-container .postgame-ranked-body .lp-win-container .lp-win-flash.active {
+  opacity: 0 !important;
+}
+.postgame-ranked-component .postgame-ranked-progression-container .postgame-ranked-body .lp-win-container .lp-win-flash.active .lp-win-flash-2 {
+  transform: translateX(-1px) scale(1.5) !important;
+}
+.postgame-ranked-component .postgame-ranked-progression-container .postgame-ranked-body .lp-loss-scroll-area.active .lp-loss-scroll {
+  transform: translateY(38px) !important;
+}
+.postgame-ranked-component .postgame-ranked-progression-container .postgame-ranked-body .lp-loss-scroll-area.active .lp-loss-flash {
+  opacity: 0 !important;
+}
+.postgame-ranked-component .postgame-ranked-progression-container .postgame-ranked-body .lp-loss-scroll-area.active .lp-loss-flash .lp-loss-flash-2 {
+  transform: translateX(1px) scale(1.3) !important;
+}
+.postgame-ranked-component .postgame-ranked-progression-container .postgame-ranked-body-miniseries .miniseries-container.active .miniseries-result-wrapper.animate {
+  transform: scale(1) !important;
+}
+.postgame-ranked-component .postgame-ranked-progression-container .postgame-ranked-body-miniseries .miniseries-container.active .miniseries-result-wrapper.animate .miniseries-result.W {
+  -webkit-filter: saturate(1) brightness(1) !important;
+}
+.postgame-ranked-component .postgame-ranked-progression-container .postgame-ranked-body-miniseries .miniseries-container.active .miniseries-result-wrapper.animate .miniseries-result.L {
+  -webkit-filter: brightness(1) !important;
+}
+.postgame-ranked-component .postgame-ranked-progression-container .postgame-ranked-pending.visible {
+  opacity: 1 !important;
+}
+.progression-body .postgame-progression-mastery-meter.large {
+  transform: scale(1) !important;
+}
+.progression-body .postgame-large-xp-meter-container {
+  transform: scale(1) !important;
+}
+.progression-body .postgame-eternals-divider,
+.progression-body .postgame-eternals-wrapper {
+  transform: scale(1) !important;
+}
+.secondary-progression-component {
+  opacity: 1 !important;
+}
+.secondary-progression-component .secondary-progression-details .flash.active.gained {
+  opacity: 0 !important;
+}
+.postgame-party-status-v2-tooltip .dot:first-of-type {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.postgame-party-status-v2-tooltip .dot:nth-of-type(2) {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.postgame-party-status-v2-tooltip .dot:nth-of-type(3) {
+  transform: scaleY(1.4) scaleX(1.4) !important;
+}
+.scoreboard-honor-flair-component .honor-flair-icon {
+  opacity: 1 !important;
+}
+
+.style-profile-overview-component.loading .style-profile-loading-spinner {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: rotate(1turn) !important;
+}
+.style-profile-overview-component.loaded .style-profile-loading-spinner {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transform: rotate(1turn) !important;
+}
+.ranked-reference-modal-component .carousel-left-arrow-mask.reveal,
+.ranked-reference-modal-component .carousel-right-arrow-mask.reveal {
+  opacity: 1 !important;
+}
+.ranked-reference-modal-component .carousel-left-arrow-mask.hidden,
+.ranked-reference-modal-component .carousel-right-arrow-mask.hidden {
+  opacity: 0 !important;
+}
+.style-profile-backdrop-component .style-profile-backdrop-container.style-profile-backdrop-dimmed:after {
+  opacity: 1 !important;
+}
+
+.account-verification-container .loading-spinner {
+  transform: rotate(1turn) !important;
+}
+.call-to-action-pip .pip-cta-loop:after {
+  opacity: 1 !important;
+}
+.particle-glow-overlay .particle-glow-overlay-center-glow {
+  opacity: 0.5 !important;
+}
+.shared-skin-purchase-button {
+  opacity: 1 !important;
+}
+.reward-tracker-reward-option .reward-option-mock-choice.reward-option-state-unselected {
+  transform: translateY(0) !important;
+}
+.reward-tracker-reward-option .reward-option-mock-choice.reward-option-state-unselected.second {
+  transform: translateY(0) !important;
+}
+.reward-tracker-reward-option .reward-choice-unselected-pip-glow {
+  opacity: 0 !important;
+}
+.reward-tracker-reward-option .reward-option-border-glow.reward-option-state-unselected {
+  opacity: 0 !important;
+}
+.challenges-collection-component .content {
+  opacity: 1 !important;
+}
+
+.lol-social-chat-toggle-button .chat-button.unread {
+  -webkit-filter: brightness(1.5) saturate(1.5) !important;
+}
+lol-friend-finder-by-social-network .contact-spinner:after {
+  transform: rotate(1turn) !important;
+}
+.lol-friend-finder-modal .spinner:after {
+  transform: rotate(1turn) !important;
+}
+.lol-social-sidebar .inprogress .spinner {
+  transform: rotate(1turn) !important;
+}
+.identity-and-parties {
+  opacity: 1 !important;
+}
+.identity-and-parties .inprogress .spinner {
+  transform: rotate(1turn) !important;
+}
+.code-of-conduct .code-of-conduct-content-container .rule-item-container.visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+.social-ember-fade-in {
+  opacity: 1 !important;
+}
+
+.rcp-fe-lol-tft-match-history-application {
+  opacity: 1 !important;
+}
+.rcp-fe-lol-tft-application,
+.rcp-fe-lol-tft-application-background {
+  opacity: 1 !important;
+}
+.ceremony__background {
+  opacity: 1 !important;
+}
+.highlight-rewards.paused .continue-button {
+  opacity: 1 !important;
+}
+.rcp-fe-lol-tft-troves-mythic-button .mythic-button button:hover {
+  text-shadow: 0 0 4px hsla(35, 44%, 89%, 0) !important;
+}
+.rcp-fe-lol-tft-troves-mythic-button .mythic-button .mythic-button-glow:hover {
+  box-shadow: 0 0 5px 4px hsla(35, 44%, 89%, 0), inset 0 0 2px 1px hsla(35, 44%, 89%, 0) !important;
+}
+.rcp-fe-lol-tft-battlepass-upgrade-button .magic-button-group lol-uikit-flat-button.glow {
+  box-shadow: 0 0 5px 4px hsla(35, 44%, 89%, 0), inset 0 0 2px 1px hsla(35, 44%, 89%, 0) !important;
+}
+.rcp-fe-lol-tft-battlepass-selected-reward-details lol-uikit-flat-button.glow {
+  box-shadow: 0 0 5px 4px hsla(35, 44%, 89%, 0), inset 0 0 2px 1px hsla(35, 44%, 89%, 0) !important;
+}
+.rcp-fe-lol-tft-radial-progress-bar .radial-progress-bar-percentage {
+  --progress-value: calc(var(--progress-current) / var(--progress-total) * 100) !important;
+}
+.rcp-fe-lol-tft-radial-progress-bar .radial-progress-bar-percentage:before {
+  --progress-value: calc(var(--progress-current) / var(--progress-total) * 100) !important;
+}
+.rcp-fe-lol-tft-radial-progress-bar .radial-progress-bar-against-total {
+  --progress-value: calc(var(--progress-current) / var(--progress-total) * 100) !important;
+}
+.rcp-fe-lol-tft-radial-progress-bar .radial-progress-bar-against-total:before {
+  --progress-value: calc(var(--progress-current) / var(--progress-total) * 100) !important;
+}
+.tft-match-history-loading-icon {
+  transform: rotate(1turn) !important;
+}
+.uikit-added-to-dom {
+  opacity: 1 !important;
+}
