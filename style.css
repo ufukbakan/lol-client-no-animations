@@ -1,6 +1,6 @@
-* {
+:not(.lol-uikit-vignette-celebration-layer *) {
   animation: none !important;
-  transition: 0 !important;
+  transition: none !important;
 }
 
 .league-static-logo {
