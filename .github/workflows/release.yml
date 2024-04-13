@@ -8,18 +8,18 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Get version
-        run: |  # Shell script to extract version and format title
+        run: |
           VERSION=$(jq -r '.version' package.json)
           TITLE="Release v$VERSION"  # Customize title format if needed
-          echo "::set-output name=TITLE::$TITLE"    # Set output variable
+          echo "TITLE=$TITLE" >> $GITHUB_STATE
       - name: Peek title
         run: |
           echo "Title is"
-          echo ${{steps.Get_version.outputs.TITLE}}
+          echo ${{GITHUB_STATE.TITLE}}
       - name: Automatic Releases
         uses: marvinpinto/action-automatic-releases@v1.2.1
         with:
           automatic_release_tag: stable
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           prerelease: false
-          title: ${{steps.Get_version.outputs.TITLE}}
+          title: ${{GITHUB_STATE.TITLE}
