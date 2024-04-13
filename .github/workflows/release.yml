@@ -15,11 +15,11 @@ jobs:
       - name: Peek title
         run: |
           echo "Title is"
-          echo ${{GITHUB_STATE.TITLE}}
+          echo ${{TITLE}}
       - name: Automatic Releases
         uses: marvinpinto/action-automatic-releases@v1.2.1
         with:
           automatic_release_tag: stable
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           prerelease: false
-          title: ${{GITHUB_STATE.TITLE}
+          title: ${{TITLE}
