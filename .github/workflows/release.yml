@@ -6,8 +6,16 @@ jobs:
   automatic-release:
     runs-on: ubuntu-latest
     steps:
-    - name: Automatic Releases
-      uses: marvinpinto/action-automatic-releases@v1.2.1
-      with:
-        automatic_release_tag: stable
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v3
+      - name: Get version
+        run: |  # Shell script to extract version and format title
+          VERSION=$(jq -r '.version' package.json)
+          TITLE="Release v$VERSION"  # Customize title format if needed
+          echo "::set-output name=TITLE::$TITLE"    # Set output variable
+      - name: Automatic Releases
+        uses: marvinpinto/action-automatic-releases@v1.2.1
+        with:
+          automatic_release_tag: stable
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          prerelease: false
+          title: ${{steps.Get_version.outputs.TITLE}}
