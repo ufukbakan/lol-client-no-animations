@@ -2,8 +2,6 @@ on:
   push:
     branches:
       - main
-env:
-  TITLE: version
 
 jobs:
   automatic-release:
@@ -11,18 +9,19 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Get version
+        id: get-version
         run: |
           VERSION=$(jq -r '.version' package.json)
           TITLE="Release v$VERSION"  # Customize title format if needed
-          echo "TITLE=$TITLE" >> $GITHUB_STATE
+          echo "title=$TITLE" >> $GITHUB_OUTPUT
       - name: Peek title
         run: |
           echo "Title is"
-          echo ${{TITLE}}
+          echo ${{steps.get-version.outputs.title}}
       - name: Automatic Releases
         uses: marvinpinto/action-automatic-releases@v1.2.1
         with:
           automatic_release_tag: stable
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           prerelease: false
-          title: ${{TITLE}}
+          title: ${{steps.get-version.outputs.title}}
