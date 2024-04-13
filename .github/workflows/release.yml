@@ -22,4 +22,4 @@ jobs:
           automatic_release_tag: stable
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           prerelease: false
-          title: ${{TITLE}
+          title: ${{TITLE}}
