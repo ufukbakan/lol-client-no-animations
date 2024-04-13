@@ -12,6 +12,10 @@ jobs:
           VERSION=$(jq -r '.version' package.json)
           TITLE="Release v$VERSION"  # Customize title format if needed
           echo "::set-output name=TITLE::$TITLE"    # Set output variable
+      - name: Peek title
+        run: |
+          echo "Title is"
+          echo ${{steps.Get_version.outputs.TITLE}}
       - name: Automatic Releases
         uses: marvinpinto/action-automatic-releases@v1.2.1
         with:
