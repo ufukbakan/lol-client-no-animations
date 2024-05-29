@@ -58,3 +58,7 @@ uikit-state-machine div.ready-check-frame-element::before {
     width: 100%;
   }
 }
+
+.fade-out {
+  display: none !important;
+}
